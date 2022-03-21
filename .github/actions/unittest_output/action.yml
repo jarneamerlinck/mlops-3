@@ -1,0 +1,8 @@
+# This file makes github actions understand that this is an action that should be ran with the defined Dockerfile
+name: "unittest_output"
+description: "Create a unit test for checking whether the output is a 0 or 1"
+author: "r0817494@student.vives.be"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"

@@ -10,7 +10,7 @@ on:
       - 'data/raw/**.csv'
   workflow_dispatch:
     branches:
-    - 'unittest_input'
+    - 'unittest_output'
     - 'main'
       
 jobs:
