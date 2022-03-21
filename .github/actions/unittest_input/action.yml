@@ -1,0 +1,8 @@
+# This file makes github actions understand that this is an action that should be ran with the defined Dockerfile
+name: "unittest_input"
+description: "Create a unit test for checking whether all required columns are in our input data"
+author: "Lukas.Mahieu@arinti.ai"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
